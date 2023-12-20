@@ -1,7 +1,7 @@
 { modulesPath, pkgs, ... }:
 {
   imports = [
-    "${modulesPath}/installer/cd-dvd/installation-cd-graphical-calamares-plasma5.nix"
+    "${modulesPath}/installer/cd-dvd/installation-cd-graphical-plasma5.nix"
   ];
 
   # Enables copy / paste when running in a KVM with spice.
