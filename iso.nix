@@ -34,4 +34,7 @@
       };
     };
   };
+
+  # Use faster squashfs compression
+  isoImage.squashfsCompression = "gzip -Xcompression-level 1";
 }
