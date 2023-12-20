@@ -39,8 +39,9 @@
     home.stateVersion = "21.11";
 
     programs = {
-      starship.enable = true;
       alacritty.enable = true;
+      fzf.enable = true; # enables zsh integration by default
+      starship.enable = true;
 
       zsh = {
         enable = true;
