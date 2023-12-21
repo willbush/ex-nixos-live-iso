@@ -11,11 +11,9 @@
   programs.zsh.enable = true;
 
   environment.systemPackages = with pkgs; [
-    git
     mkpasswd
     ripgrep
     tree
-    wget
   ];
 
   home-manager.users.nixos = {
