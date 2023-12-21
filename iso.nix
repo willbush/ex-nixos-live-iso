@@ -13,7 +13,6 @@
   environment.systemPackages = with pkgs; [
     git
     mkpasswd
-    neovim
     ripgrep
     tree
     wget
@@ -31,6 +30,11 @@
         enable = true;
         enableCompletion = true;
         enableAutosuggestions = true;
+      };
+
+      neovim = {
+        enable = true;
+        extraConfig = builtins.readFile ../../nvim/init.vim;
       };
     };
   };
