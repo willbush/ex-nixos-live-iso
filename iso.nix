@@ -14,6 +14,7 @@
     mkpasswd
     ripgrep
     tree
+    xclip # for clipboard support in neovim
   ];
 
   home-manager.users.nixos = {
