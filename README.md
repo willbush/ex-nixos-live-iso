@@ -3,8 +3,10 @@
 An example of how to create a custom NixOS live CD/ISO with nix
 [flakes](https://nixos.wiki/wiki/Flakes).
 
-If you don't have nix, I recommend installing it with the following because it
-has flakes enabled by default: https://zero-to-nix.com/start/install
+If you don't have Nix installed, I recommend using the Determinate Systems Nix
+installer (reasons given on the website):
+
+https://zero-to-nix.com/concepts/nix-installer
 
 Build the ISO with:
 
