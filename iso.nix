@@ -12,6 +12,7 @@
 
   environment.systemPackages = with pkgs; [
     mkpasswd
+    nixpkgs-fmt
     ripgrep
     tree
     xclip # for clipboard support in neovim
